@@ -45,7 +45,7 @@ function findLetterGrade(numericGrade) {
 
 function generateExamsInfo(exams) {
   let scoreArraysForEachExam = [];
-  let numberOfExams = exams[0].length;
+  let numberOfExams          = exams[0].length;
   
   for (let examIndex = 0; examIndex < numberOfExams; examIndex += 1) {
     let scoresForOneExam = [];
